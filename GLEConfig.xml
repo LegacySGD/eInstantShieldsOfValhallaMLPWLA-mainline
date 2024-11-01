@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2293" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Shields Of Valhalla MLP WLA" version="1.0.4" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid="L01"
+              jackpotFamilyId="L01"
+			  jackpotType="L"               
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="50,100,200,300,500,1000,2000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,nb_NO"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">
+              
+            <!-- ZER -->
+            <!--<paymodel modelid="300-2293-099"  revealId="2293" revealVersionId="2293"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Shields Of Valhalla MLP WLA : 300-2293-099"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500" 
+					  noncashprizes="5"/>
+
+            <paymodelConfig modelid="300-2293-099" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2293-099" clienttype="HTML" configcode="PHLP"/>-->
+
+            <!-- KY 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2293-001"  revealId="4736" revealVersionId="4724"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Shields Of Valhalla MLP WLA : 300-2293-001"
+                      hibethold="13.00" lobethold="13.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500" 
+					  noncashprizes="5"/>
+
+            <paymodelConfig modelid="300-2293-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2293-001" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- GA 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2293-002"  revealId="4736" revealVersionId="4724"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Shields Of Valhalla MLP WLA : 300-2293-002"
+                      hibethold="20.00" lobethold="20.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500" 
+					  noncashprizes="5"/>
+
+            <paymodelConfig modelid="300-2293-002" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2293-002" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- NT $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2293-003"  revealId="4736" revealVersionId="4724"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Shields Of Valhalla MLP WLA : 300-2293-003"
+                      hibethold="19.00" lobethold="19.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500" 
+					  noncashprizes="5"/>
+
+            <paymodelConfig modelid="300-2293-003" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2293-003" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- RI 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2293-004"  revealId="4736" revealVersionId="4724"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Shields Of Valhalla MLP WLA : 300-2293-004"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500" 
+					  noncashprizes="5"/>
+
+            <paymodelConfig modelid="300-2293-004" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2293-004" clienttype="HTML" configcode="PHLP"/>
+
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="USD" amount="0.01"/>
+
+		    <jackpot>
+		        <group id="L01-15" currencycode="USD">
+		        <band id="L01" totalBet="50,100,200,300,500,1000,2000"/>
+		        </group>
+		        <group id="L01-15" currencycode="NOK">
+		        <band id="L01" totalBet="100,200,300,500,1000,2000"/>
+		        </group>
+		    </jackpot> 
+        </game>
+    </family>
